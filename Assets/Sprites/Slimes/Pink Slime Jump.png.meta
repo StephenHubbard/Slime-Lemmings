@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e879b3d44617654587bff4add5e9a79
+guid: fcabff8cf23b3804ab41a974e7254f15
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pink Slime_0
+      name: Pink Slime Jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,20 +114,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 9
-      pivot: {x: 0.5, y: 0.23}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38c7a2ddc821d634e91d2e28cc63fd75
-      internalID: 1804191665
+      spriteID: bccbb87ff740f1a4ab27374ab2ffae97
+      internalID: -631974423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink Slime_1
+      name: Pink Slime Jump_1
       rect:
         serializedVersion: 2
         x: 16
@@ -135,56 +135,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 9
-      pivot: {x: 0.5, y: 0.23}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a15ecd200a6eb8b4296b3b4732729f9c
-      internalID: 4910555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pink Slime_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.23}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa92a088a7be333448a3cc0eaea111d3
-      internalID: -2060304089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pink Slime_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.23}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 992fcaf652ff95d4bacab01ec8dd7b81
-      internalID: 1225431491
+      spriteID: d98e260b8c62fce45956ae3c47f4d1cd
+      internalID: -507497796
       vertices: []
       indices: 
       edges: []
@@ -200,10 +158,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pink Slime_0: 1804191665
-      Pink Slime_3: 1225431491
-      Pink Slime_2: -2060304089
-      Pink Slime_1: 4910555
+      Pink Slime Jump_0: -631974423
+      Pink Slime Jump_1: -507497796
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
