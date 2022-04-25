@@ -9,6 +9,7 @@ public class SlimeMovement : MonoBehaviour
     [SerializeField] private Transform groundDetection;
     [SerializeField] private bool canJump = true;
     [SerializeField] private float timeBetweenJumps = 3f;
+    [SerializeField] private bool edgeDetection = true;
 
     private bool movingRight = true;
     private Rigidbody2D myRigidBody;
@@ -35,6 +36,8 @@ public class SlimeMovement : MonoBehaviour
     private void Movement() {
         transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
 
+        if (edgeDetection == false) { return; }
+        
         RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f);
         if (groundInfo.collider == false) {
             if (movingRight == true) {
